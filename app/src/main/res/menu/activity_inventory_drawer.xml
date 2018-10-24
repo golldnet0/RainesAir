@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/img_home"
+        android:title="@string/home" />
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/po"
+            android:icon="@drawable/img_po"
+            android:title="@string/PO" />
+        <item
+            android:id="@+id/so"
+            android:icon="@drawable/img_so"
+            android:title="@string/SO" />
+        <item
+            android:id="@+id/ro"
+            android:icon="@drawable/img_ro"
+            android:title="@string/RO" />
+        <item
+            android:id="@+id/parts"
+            android:icon="@drawable/img_parts"
+            android:title="@string/parts" />
+
+        <item
+            android:id="@+id/inventory"
+            android:icon="@drawable/img_inventory"
+            android:title="@string/inventory" />
+
+        <item
+            android:id="@+id/customers"
+            android:icon="@drawable/img_customer"
+            android:title="@string/customers" />
+    </group>
+
+    <item android:title="Personal">
+        <menu>
+            <item
+                android:id="@+id/info"
+                android:icon="@drawable/img_personal"
+                android:title="@string/info" />
+
+
+        </menu>
+
+
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/message"
+                android:icon="@drawable/img_message"
+                android:title="@string/message" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings" />
+
+</menu>
+

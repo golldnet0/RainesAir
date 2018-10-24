@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/content_so"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.ariad.rainesair.SOAddActivity"
+        tools:showIn="@layout/app_bar_so">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#303F9F">
+
+            <ImageView
+                android:id="@+id/soAdd_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back"
+                android:layout_marginLeft="31dp"
+                android:layout_marginStart="31dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginStart="33dp"
+
+                android:text="@string/add_so"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#fff"
+                android:layout_alignTop="@+id/soAdd_back"
+                android:layout_toRightOf="@+id/soAdd_back"
+                android:layout_toEndOf="@+id/soAdd_back" />
+
+
+        </RelativeLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/content_parts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.ariad.rainesair.SOAddActivity"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/company_name"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <Spinner
+            android:id="@+id/so_companyname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/partnum"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+            />
+
+        <Spinner
+            android:id="@+id/so_partnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+
+
+            />
+
+
+        <EditText
+            android:id="@+id/so_serialnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/serialnumber"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+
+        <EditText
+            android:id="@+id/so_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/description"
+            android:inputType="textMultiLine"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/condition"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+            />
+
+        <Spinner
+            android:id="@+id/so_condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:entries="@array/condition_for_parts"
+
+
+            />
+
+
+        <EditText
+            android:id="@+id/so_trace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/trace"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+
+        <EditText
+            android:id="@+id/so_tagby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/tagby"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+
+            <EditText
+                android:id="@+id/so_tagdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/tagdate"
+                android:inputType="datetime"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000"
+                />
+
+            <Button
+                android:id="@+id/so_selectdate"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/side_nav_bar"
+                android:text="@string/selectDate"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#fff"/>
+
+
+
+        </RelativeLayout>
+
+
+
+        <EditText
+            android:id="@+id/so_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/price"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+        <EditText
+            android:id="@+id/so_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/quantity"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+            />
+
+        <Spinner
+            android:id="@+id/so_terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:entries="@array/terms"
+
+            />
+
+
+        <EditText
+            android:id="@+id/so_creditcardfee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/creditcardfee"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+
+        <EditText
+            android:id="@+id/so_wiretransferfee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/wiretransferfee"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+        <EditText
+            android:id="@+id/so_dgdocuments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/dgdocuments"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+        <EditText
+            android:id="@+id/so_packing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/packing"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+
+        <EditText
+            android:id="@+id/so_shippingcost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/shippingcost"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+        <EditText
+            android:id="@+id/so_salestotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/salestotal"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+
+        <EditText
+            android:id="@+id/so_contactname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/purchaserName"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+
+        <EditText
+            android:id="@+id/so_contactemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/purchaserEmail"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+        <EditText
+            android:id="@+id/so_contactphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/purchaserPhone"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+
+            <EditText
+                android:id="@+id/so_salesdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/salesDate"
+                android:inputType="datetime"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000"
+                />
+
+            <Button
+                android:id="@+id/so_selecteddate"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/side_nav_bar"
+                android:text="@string/selectDate"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#fff"/>
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            android:paddingLeft="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+            />
+
+        <Spinner
+            android:id="@+id/so_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:entries="@array/status"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+
+
+            />
+
+
+
+        <EditText
+            android:id="@+id/so_shipto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/shipto"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+
+        <EditText
+            android:id="@+id/so_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/comments"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#000"
+            />
+
+
+        <Button
+            android:id="@+id/so_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:text="@string/save"
+
+            />
+
+        <Button
+            android:id="@+id/so_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:text="@string/cancel"
+
+            />
+
+        <Button
+            android:id="@+id/so_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:text="@string/sendToPurchaser"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

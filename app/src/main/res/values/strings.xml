@@ -1,0 +1,501 @@
+<resources>
+    <string name="app_name">Raines Air</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="signIn">Log On</string>
+    <string name="forgotUserPass">Forgot Password?</string>
+    <string name="enroll">Enroll</string>
+    <string name="contact">Contact</string>
+    <string name="location">Location</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Log Off</string>
+    <string name="PO">PO</string>
+    <string name="SO">SO</string>
+    <string name="RO">RO</string>
+    <string name="parts">Parts</string>
+    <string name="inventory">Inventory</string>
+    <string name="customers">Customers</string>
+    <string name="message">Message</string>
+    <string name="info">Info</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="address">Address:</string>
+    <string name="city">City:</string>
+    <string name="zip">Zip Code:</string>
+    <string name="cellnum">Cell Number:</string>
+    <string name="worknum">Work Number:</string>
+    <string name="ext">Extension:</string>
+    <string name="country">Country:</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="contact_welcome">Please contact us for any questions or suggestions!</string>
+    <string name="contact_phone">Please call: (305)-926-1634</string>
+    <string name="contact_email">Please email at:</string>
+    <string name="contact_email_val">ariadnamf91@aol.com</string>
+    <string name="contact_fill_form">Contact Form:</string>
+    <string name="subject">Subject:</string>
+    <string name="comments">Comments:</string>
+    <string name="upload">Upload</string>
+
+
+    <string-array name="Countries">
+
+        <item>	United States of America (USA)	</item>
+        <item>	Afghanistan	</item>
+        <item>	Albania	</item>
+        <item>	Algeria	</item>
+        <item>	Andorra	</item>
+        <item>	Angola	</item>
+        <item>	Antigua and Barbuda	</item>
+        <item>	Argentina	</item>
+        <item>	Armenia	</item>
+        <item>	Australia	</item>
+        <item>	Austria	</item>
+        <item>	Azerbaijan	</item>
+        <item>	Bahamas	</item>
+        <item>	Bahrain	</item>
+        <item>	Bangladesh	</item>
+        <item>	Barbados	</item>
+        <item>	Belarus	</item>
+        <item>	Belgium	</item>
+        <item>	Belize	</item>
+        <item>	Benin	</item>
+        <item>	Bhutan	</item>
+        <item>	Bolivia	</item>
+        <item>	Bosnia and Herzegovina	</item>
+        <item>	Botswana	</item>
+        <item>	Brazil	</item>
+        <item>	Brunei	</item>
+        <item>	Bulgaria	</item>
+        <item>	Burkina Faso	</item>
+        <item>	Burundi	</item>
+        <item>	Cabo Verde	</item>
+        <item>	Cambodia	</item>
+        <item>	Cameroon	</item>
+        <item>	Canada	</item>
+        <item>	Central African Republic (CAR)	</item>
+        <item>	Chad	</item>
+        <item>	Chile	</item>
+        <item>	China	</item>
+        <item>	Colombia	</item>
+        <item>	Comoros	</item>
+        <item>	Democratic Republic of the Congo	</item>
+        <item>	Republic of the Congo	</item>
+        <item>	Costa Rica	</item>
+        <item>	Cote d Ivoire	</item>
+        <item>	Croatia	</item>
+        <item>	Cuba	</item>
+        <item>	Cyprus	</item>
+        <item>	Czech Republic	</item>
+        <item>	Denmark	</item>
+        <item>	Djibouti	</item>
+        <item>	Dominica	</item>
+        <item>	Dominican Republic	</item>
+        <item>	Ecuador	</item>
+        <item>	Egypt	</item>
+        <item>	El Salvador	</item>
+        <item>	Equatorial Guinea	</item>
+        <item>	Eritrea	</item>
+        <item>	Estonia	</item>
+        <item>	Ethiopia	</item>
+        <item>	Fiji	</item>
+        <item>	Finland	</item>
+        <item>	France	</item>
+        <item>	Gabon	</item>
+        <item>	Gambia	</item>
+        <item>	Georgia	</item>
+        <item>	Germany	</item>
+        <item>	Ghana	</item>
+        <item>	Greece	</item>
+        <item>	Grenada	</item>
+        <item>	Guatemala	</item>
+        <item>	Guinea	</item>
+        <item>	Guinea-Bissau	</item>
+        <item>	Guyana	</item>
+        <item>	Haiti	</item>
+        <item>	Honduras	</item>
+        <item>	Hungary	</item>
+        <item>	Iceland	</item>
+        <item>	India	</item>
+        <item>	Indonesia	</item>
+        <item>	Iran	</item>
+        <item>	Iraq	</item>
+        <item>	Ireland	</item>
+        <item>	Israel	</item>
+        <item>	Italy	</item>
+        <item>	Jamaica	</item>
+        <item>	Japan	</item>
+        <item>	Jordan	</item>
+        <item>	Kazakhstan	</item>
+        <item>	Kenya	</item>
+        <item>	Kiribati	</item>
+        <item>	Kosovo	</item>
+        <item>	Kuwait	</item>
+        <item>	Kyrgyzstan	</item>
+        <item>	Laos	</item>
+        <item>	Latvia	</item>
+        <item>	Lebanon	</item>
+        <item>	Lesotho	</item>
+        <item>	Liberia	</item>
+        <item>	Libya	</item>
+        <item>	Liechtenstein	</item>
+        <item>	Lithuania	</item>
+        <item>	Luxembourg	</item>
+        <item>	Macedonia	</item>
+        <item>	Madagascar	</item>
+        <item>	Malawi	</item>
+        <item>	Malaysia	</item>
+        <item>	Maldives	</item>
+        <item>	Mali	</item>
+        <item>	Malta	</item>
+        <item>	Marshall Islands	</item>
+        <item>	Mauritania	</item>
+        <item>	Mauritius	</item>
+        <item>	Mexico	</item>
+        <item>	Micronesia	</item>
+        <item>	Moldova	</item>
+        <item>	Monaco	</item>
+        <item>	Mongolia	</item>
+        <item>	Montenegro	</item>
+        <item>	Morocco	</item>
+        <item>	Mozambique	</item>
+        <item>	Myanmar (Burma)	</item>
+        <item>	Namibia	</item>
+        <item>	Nauru	</item>
+        <item>	Nepal	</item>
+        <item>	Netherlands	</item>
+        <item>	New Zealand	</item>
+        <item>	Nicaragua	</item>
+        <item>	Niger	</item>
+        <item>	Nigeria	</item>
+        <item>	North Korea	</item>
+        <item>	Norway	</item>
+        <item>	Oman	</item>
+        <item>	Pakistan	</item>
+        <item>	Palau	</item>
+        <item>	Palestine	</item>
+        <item>	Panama	</item>
+        <item>	Papua New Guinea	</item>
+        <item>	Paraguay	</item>
+        <item>	Peru	</item>
+        <item>	Philippines	</item>
+        <item>	Poland	</item>
+        <item>	Portugal	</item>
+        <item>	Qatar	</item>
+        <item>	Romania	</item>
+        <item>	Russia	</item>
+        <item>	Rwanda	</item>
+        <item>	Saint Kitts and Nevis	</item>
+        <item>	Saint Lucia	</item>
+        <item>	Saint Vincent and the Grenadines	</item>
+        <item>	Samoa	</item>
+        <item>	San Marino	</item>
+        <item>	Sao Tome and Principe	</item>
+        <item>	Saudi Arabia	</item>
+        <item>	Senegal	</item>
+        <item>	Serbia	</item>
+        <item>	Seychelles	</item>
+        <item>	Sierra Leone	</item>
+        <item>	Singapore	</item>
+        <item>	Slovakia	</item>
+        <item>	Slovenia	</item>
+        <item>	Solomon Islands	</item>
+        <item>	Somalia	</item>
+        <item>	South Africa	</item>
+        <item>	South Korea	</item>
+        <item>	South Sudan	</item>
+        <item>	Spain	</item>
+        <item>	Sri Lanka	</item>
+        <item>	Sudan	</item>
+        <item>	Suriname	</item>
+        <item>	Swaziland	</item>
+        <item>	Sweden	</item>
+        <item>	Switzerland	</item>
+        <item>	Syria	</item>
+        <item>	Taiwan	</item>
+        <item>	Tajikistan	</item>
+        <item>	Tanzania	</item>
+        <item>	Thailand	</item>
+        <item>	Timor-Leste	</item>
+        <item>	Togo	</item>
+        <item>	Tonga	</item>
+        <item>	Trinidad and Tobago	</item>
+        <item>	Tunisia	</item>
+        <item>	Turkey	</item>
+        <item>	Turkmenistan	</item>
+        <item>	Tuvalu	</item>
+        <item>	Uganda	</item>
+        <item>	Ukraine	</item>
+        <item>	United Arab Emirates (UAE)	</item>
+        <item>	United Kingdom (UK)	</item>
+        <item>	Uruguay	</item>
+        <item>	Uzbekistan	</item>
+        <item>	Vanuatu	</item>
+        <item>	Vatican City (Holy See)	</item>
+        <item>	Venezuela	</item>
+        <item>	Vietnam	</item>
+        <item>	Yemen	</item>
+        <item>	Zambia	</item>
+        <item>	Zimbabwe	</item>
+
+
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="forgot">Forgot Username or Password?</string>
+    <string name="send">Send</string>
+    <string name="create_account">Create Account</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="title_activity_location">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_logged_in">LoggedInActivity</string>
+    <string name="home">Home</string>
+    <string name="title_activity_po">POActivity</string>
+    <string name="title_activity_so">SOActivity</string>
+    <string name="title_activity_ro">ROActivity</string>
+    <string name="title_activity_parts">PartsActivity</string>
+    <string name="title_activity_inventory">InventoryActivity</string>
+    <string name="title_activity_customers">CustomersActivity</string>
+    <string name="title_activity_personal_info">PersonalInfoActivity</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="company_name">Company Name:</string>
+    <string name="state">State (ex: FL):</string>
+    <string name="contact_person">Contact Person Info:</string>
+    <string name="contact_person_cell">Contact Person Cell:</string>
+    <string name="fax">Fax:</string>
+    <string name="nameOnAccount">Name On Account</string>
+    <string name="billingAddress">Billing Address</string>
+    <string name="contactInfo">Contact Info</string>
+    <string name="oldpassword">Old Password</string>
+    <string name="newpassword">New Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="change">Change</string>
+    <string name="ponum">PO #</string>
+    <string name="partnum">Part Number</string>
+    <string name="serialnumber">Serial Number</string>
+    <string name="description">Description</string>
+    <string name="condition">Condition</string>
+    <string name="trace">Trace</string>
+    <string name="tagby">Tag By</string>
+    <string name="tagdate">Tag Date (D/M/YYYY)</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="creditcardfee">Credit Card Fee</string>
+    <string name="wiretransferfee">Wire Transfer Fee</string>
+    <string name="dgdocuments">DG Documents Fee</string>
+    <string name="packing">Packing Fee</string>
+    <string name="shippingcost">Shipping Cost</string>
+    <string name="purchasetotal">Purchase Total</string>
+    <string name="vendorname">Vendor Name</string>
+    <string name="vendoremail">Vendor Email</string>
+    <string name="vendorphone">Vendor Phone</string>
+    <string name="orderdate">Order Date (D/M/YYYY)</string>
+    <string name="shipto">Ship To</string>
+    <string name="terms">Terms</string>
+    <string name="status">Status</string>
+    <string name="sonum">Sales Order #</string>
+    <string name="salestotal">Sales Total</string>
+    <string name="contactname">Contact Name</string>
+    <string name="contactemail">Contact Email</string>
+    <string name="contactphone">Contact Phone</string>
+    <string name="ronum">Repair Order #</string>
+    <string name="currentcondition">Current Condition</string>
+    <string name="laborcost">Labor Cost</string>
+    <string name="partscost">Parts Cost</string>
+    <string name="totalcost">Total Cost</string>
+    <string name="workrequested">Work Requested</string>
+    <string name="cost">Cost</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_customers_view_details">CustomersViewDetailsActivity</string>
+    <string name="customer_detail">Customer Detail</string>
+    <string name="update">Update</string>
+    <string name="add_part">Add Parts</string>
+    <string name="part_detail">Part Detail</string>
+    <string name="add_Inventory">Add Inventory</string>
+    <string name="listPrice">List Price Per Part</string>
+    <string name="selectDate">Select Date</string>
+    <string name="publish">Publish</string>
+    <string name="contactPublisher">Contact Publisher</string>
+    <string name="add_po">Add Purchase Order</string>
+
+
+    <string-array name="condition_for_parts">
+
+        <item> AR </item>
+        <item> FN </item>
+        <item> INS </item>
+        <item> NEW </item>
+        <item> NS </item>
+        <item> OH </item>
+        <item> RP </item>
+        <item> SV </item>
+
+    </string-array>
+
+
+    <string-array name="terms">
+
+        <item> NET 30 </item>
+        <item> NET 15 </item>
+        <item> CREDIT CARD </item>
+        <item> WIRE TRANSFER </item>
+        <item> C.O.D. </item>
+
+    </string-array>
+
+
+    <string-array name="status">
+
+        <item> APPROVED </item>
+        <item> AUTHORIZED </item>
+        <item> CANCELLED </item>
+        <item> COMPLETED </item>
+        <item> PENDING </item>
+
+        <item> REJECTED </item>
+        <item> ON HOLD </item>
+        <item> SHIPPED </item>
+        <item> COMPLETED </item>
+        <item> DELAYED </item>
+
+        <item> BACKORDERED </item>
+        <item> CLOSED </item>
+        <item> PAID </item>
+        <item> REFUNDED </item>
+
+
+    </string-array>
+
+
+    <string-array name="workRequested">
+
+        <item> Please, make overhaul </item>
+        <item> Please, make bench check </item>
+        <item> Please, make repaired </item>
+
+    </string-array>
+
+    <string name="viewMessageTitleStr">Messages</string>
+    <string name="recipientStr">Recipient</string>
+    <string name="sendStr">Send Message</string>
+    <string name="subjectStr">Subject</string>
+    <string name="titleStr">Message</string>
+    <string name="composeMessageTitleStr">Compose Message</string>
+    <string name="replyStr">Reply To This Message</string>
+    <string name="individualMessageTitleStr">View Message</string>
+    <string name="lblSender">From:</string>
+    <string name="lblSubject">Subject:</string>
+    <string name="bodyStr">Body:</string>
+    <string name="viewMessageDetails">Message Details</string>
+    <string name="reInsertMessage">RE:  Subject</string>
+    <string name="payment_amount">Payment Amount</string>
+    <string name="so_so">Add Sales Order</string>
+    <string name="add_ro">Add Repair Order</string>
+    <string name="add_so">Add Sales Order</string>
+    <string name="payment_details">Payment Details</string>
+    <string name="salesDate">Sales Date (D/M/YYYY)</string>
+    <string name="repairDate">Repair Date (D/M/YYYY)</string>
+    <string name="purchaserName">Purchaser Name</string>
+    <string name="purchaserEmail">Purchaser Email</string>
+    <string name="purchaserPhone">Purchaser Phone</string>
+    <string name="poDetails">PO Details</string>
+    <string name="roDetails">RO Details</string>
+    <string name="soDetails">SO Details</string>
+    <string name="inventoryDetails">Inventory Details</string>
+    <string name="remember">Remember me</string>
+    <string name="sendToVendor">Send To Vendor</string>
+    <string name="sendToPurchaser">Send To Purchaser</string>
+    <string name="sendToCustomer">Send To Customer</string>
+    <string name="titleRatingStr">Rating</string>
+    <string name="ratingPromptStr">How would you like to rate this user?</string>
+    <string name="btnRateStr">Rate</string>
+    <string name="deleteStr">Delete This Message</string>
+    <string name="viewPartTitle">View Part</string>
+
+    <string-array name="RatingScale">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+</resources>

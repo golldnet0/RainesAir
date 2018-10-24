@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "484963884331",
+    "firebase_url": "https://capstone-eea61.firebaseio.com",
+    "project_id": "capstone-eea61",
+    "storage_bucket": "capstone-eea61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484963884331:android:d834016dc0e577d1",
+        "android_client_info": {
+          "package_name": "com.example.ariad.rainesair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484963884331-q52lmmpcn9e8h178d90ss2sjrd9lb7nu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ariad.rainesair",
+            "certificate_hash": "D47E2482C44B2816E4C816FA40FBF274082C5DA2"
+          }
+        },
+        {
+          "client_id": "484963884331-p0b4ub4c9kr9qfc8i8coafmqu8r7pga4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD27JfO7666LuG2opPCnxMC4qjLkO4FvNI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484963884331-p0b4ub4c9kr9qfc8i8coafmqu8r7pga4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

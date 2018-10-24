@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_published_parts_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="15dp"
+    android:layout_marginTop="15dp"
+    tools:context="com.example.ariad.rainesair.PublishedPartsMenuActivity">
+
+
+    <Button
+        android:id="@+id/published_parts_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="19dp"
+        android:background="@drawable/viewparts"
+        android:layout_below="@+id/published_parts_info"
+        android:layout_toEndOf="@+id/published_parts_purchase_order" />
+
+    <Button
+        android:id="@+id/published_parts_menu_call"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/published_parts_info"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/phone" />
+
+    <Button
+        android:id="@+id/published_parts_menu_message"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/published_parts_info"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/published_parts_menu_call"
+        android:background="@drawable/createmessageicon"
+
+        />
+
+    <Button
+        android:id="@+id/published_parts_menu_email"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/published_parts_info"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/published_parts_menu_message"
+        android:background="@drawable/email"
+
+        />
+
+
+    <Button
+        android:id="@+id/published_parts_purchase_order"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/published_parts_info"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/published_parts_menu_email"
+        android:background="@drawable/shoppingcart"
+
+        />
+
+    <Button
+        android:id="@+id/published_parts_purchase_star"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/star"
+
+        android:layout_marginStart="11dp"
+        android:layout_below="@+id/published_parts_info"
+        android:layout_toEndOf="@+id/published_parts_view" />
+
+    <TextView
+        android:id="@+id/published_parts_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="75dp"
+        android:text="@string/contactPublisher"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#000" />
+
+
+</RelativeLayout>

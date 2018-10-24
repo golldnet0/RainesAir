@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_forgot_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.ariad.rainesair.ContactActivity">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#303F9F"
+
+            >
+
+            <ImageView
+                android:id="@+id/contact_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back"
+                android:layout_marginLeft="31dp"
+                android:layout_marginStart="31dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/contact_us"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#fff"
+
+                android:layout_marginStart="15dp"
+                android:layout_alignBottom="@+id/contact_back"
+                android:layout_toRightOf="@+id/contact_back"
+                android:layout_toEndOf="@+id/contact_back" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_contact"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.example.ariadna.RainesAir.ContactActivity">
+
+            <TextView
+                android:id="@+id/contact_hello"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_welcome"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/contact_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_phone"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/contact_hello"
+                android:layout_marginLeft="15dp"
+                android:textColor="#000"
+
+                />
+
+
+            <TextView
+                android:id="@+id/contact_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contact_phone"
+                android:text="@string/contact_email"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="#000"
+                />
+
+
+            <TextView
+                android:id="@+id/contact_email_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contact_phone"
+                android:text="@string/contact_email_val"
+                android:layout_marginTop="40dp"
+                android:layout_toRightOf="@id/contact_email"
+                android:textColor="#000"
+                />
+
+
+            <TextView
+                android:id="@+id/contact_fill_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contact_email_icon"
+                android:text="@string/contact_fill_form"
+                android:layout_marginTop="40dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+
+
+            <EditText
+                android:id="@+id/contact_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/first_name"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_below="@+id/contact_fill_form"/>
+
+            <EditText
+                android:id="@+id/contact_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/last_name"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_below="@+id/contact_first_name"
+
+                />
+
+
+
+            <EditText
+                android:id="@+id/contact_cell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/cellnum"
+                android:inputType="phone"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_below="@+id/contact_last_name"/>
+
+
+            <EditText
+                android:id="@+id/contact_email_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_below="@+id/contact_cell"/>
+
+
+            <EditText
+                android:id="@+id/contact_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/subject"
+                android:inputType="textEmailSubject"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_below="@+id/contact_email_form"/>
+
+
+            <EditText
+                android:id="@+id/contact_comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/comments"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_below="@+id/contact_subject"
+
+                />
+
+
+            <Button
+                android:id="@+id/contact_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:textColor="#fff"
+                android:layout_marginTop="15dp"
+                android:text="@string/save"
+                android:layout_below="@+id/contact_comments"
+
+                />
+
+            <Button
+                android:id="@+id/contact_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:text="@string/cancel"
+                android:layout_below="@+id/contact_save"
+
+                />
+
+            <ImageView
+                android:id="@+id/contact_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_call"
+                android:layout_above="@+id/contact_email_value"
+                android:layout_toRightOf="@+id/contact_email_value"
+                android:layout_toEndOf="@+id/contact_email_value"
+                android:layout_marginLeft="27dp"
+                android:layout_marginStart="27dp" />
+
+            <ImageView
+                android:id="@+id/contact_email_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_dialog_email"
+                android:layout_alignBottom="@+id/contact_email_value"
+                android:layout_alignLeft="@+id/contact_call"
+                android:layout_alignStart="@+id/contact_call" />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

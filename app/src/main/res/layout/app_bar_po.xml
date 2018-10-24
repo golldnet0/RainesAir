@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.ariad.rainesair.POActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title= "Purchase Order"/>
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/po_search"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="41dp"
+            android:layout_marginStart="41dp"
+            android:paddingLeft="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:persistentDrawingCache="animation"
+            android:showDividers="beginning|middle|end"
+            android:background="@drawable/search_bar_style"
+            app:defaultQueryHint="Search PO by Date"
+
+            >
+
+        </android.support.v7.widget.SearchView>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_po" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>
